@@ -9,4 +9,4 @@ Ağ Tabanlı Programlamaya Giriş Dönem Projesi
 3. `Live Server` eklentisi ile çalıştırın.
 
 ## Proje Videosu
-[1. Hafta Uygulama Videosu](https://drive.google.com/drive/folders/1tGnC1xNBBI61yXVPRjDtHAg2uINfamhV?usp=sharing)
+[Haftalık Uygulama Videoları](https://drive.google.com/drive/folders/1tGnC1xNBBI61yXVPRjDtHAg2uINfamhV?usp=sharing)
