@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --ana-renk: #d7c4b7;
+  --ikincil-renk: #8b5e3c;
+  --arkaplan: #fdfbf7;
+  --yazi-renk: #2c221e;
+  --vurgu-yesil: #39703b;
+  --vurgu-mavi: #80b8e6;
+}
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--yazi-renk);
+  background-color: var(--arkaplan);
+  margin: 0;
+}
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--ana-renk);
+  background-color: var(--yazi-renk);
+  padding: 1.5rem;
+  margin-top: 3rem;
+}
+footer a {
+  color: var(--ikincil-renk);
+  text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--ikincil-renk);
+  padding: 16px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+}
+nav a {
+  text-decoration: none;
+  color: var(--arkaplan);
+  padding: 0.5rem 0.8rem;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+nav a:hover {
+  background-color: var(--ana-renk);
+  color: var(--yazi-renk);
+}
+article {
+  padding: 1.5rem;
+}
+h3,
+h4 {
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+}
+ul,
+ol {
+  padding-left: 1.2rem;
+}
+li {
+  margin-bottom: 0.4rem;
+}
+span {
+  display: inline-block;
+  padding: 0.3rem 0.6rem;
+  margin-right: 0.5rem;
+}
